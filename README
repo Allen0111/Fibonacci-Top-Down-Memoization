@@ -1,0 +1,19 @@
+Fibonacci using DP
+
+This was a quick and dirty program that i wrote for fun. After studying DP, I was curious and wanted to test things out to see the difference in runtime. This is the resulting code.
+
+Steps to compile: 
+
+Steps to compile:
+	1. Change directories to where the QuickSortTest.java, QuickSort.java, RandomizedQuickSort.java are located. by using "cd"	
+	2. Once you are in the directory, type:
+
+		javac *.java
+
+Steps to run:
+
+	1. This program has been tested using numbers up to n = 5000. I did not need to allocate additional resources to the JVM, nor did i have to give it any special set of instructions. Your mileage may vary. If you encounter a stack overflow ( due to the recursive nature of this program ), you will need to tell the JVM (via command line arguments) to use more resources. Documentation on this is available via Google search. 
+	
+	2. To run - 
+
+		java FibonacciTest
